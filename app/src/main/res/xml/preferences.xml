@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.preference.PreferenceCategory
+        android:key="pref_app_settings"
+        android:title="@string/pref_app_settings_title">
+        <android.support.v7.preference.ListPreference
+            android:key="pref_url"
+            android:dialogTitle="@string/pref_url_title"
+            android:title="@string/pref_url_title"
+            android:summary="%s"
+            android:entries="@array/pref_url_entries"
+            android:entryValues="@array/pref_url_values"
+            android:defaultValue="@string/app_url" />
+        <android.support.v7.preference.EditTextPreference
+            android:key="pref_timeout"
+            android:dialogTitle="@string/pref_timeout_title"
+            android:title="@string/pref_timeout_title"
+            android:summary="@string/app_timeout"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:maxLength="5"
+            android:defaultValue="@string/app_timeout" />
+        </android.support.v7.preference.PreferenceCategory>
+    <android.support.v7.preference.PreferenceCategory
+        android:key="pref_camera"
+        android:title="@string/pref_camera_title">
+        <android.support.v7.preference.CheckBoxPreference
+            android:key="pref_enable"
+            android:dialogTitle="@string/pref_camera_enable_title"
+            android:title="@string/pref_camera_enable_title"
+            android:summary="@string/app_enable_camera"
+            android:defaultValue="@string/app_enable_camera" />
+        <android.support.v7.preference.CheckBoxPreference
+            android:key="pref_autodetect"
+            android:dialogTitle="@string/pref_camera_autodetect_title"
+            android:title="@string/pref_camera_autodetect_title"
+            android:summary="@string/app_autodetect"
+            android:defaultValue="@string/app_autodetect" />
+        <android.support.v7.preference.EditTextPreference
+            android:key="pref_fps"
+            android:dialogTitle="@string/pref_camera_fps_title"
+            android:title="@string/pref_camera_fps_title"
+            android:summary="@string/app_fps"
+            android:inputType="number"
+            android:digits="0123456789"
+            android:maxLength="5"
+            android:defaultValue="@string/app_fps" />
+    </android.support.v7.preference.PreferenceCategory>
+</android.support.v7.preference.PreferenceScreen>

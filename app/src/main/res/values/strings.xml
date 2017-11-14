@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">ScanPilot</string>
+    <string name="drawer_opened">Opened</string>
+    <string name="drawer_closed">Closed</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="app_autodetect">true</string>
+    <string name="app_fps">30</string>
+    <string name="app_url">http://scanman.billetten.dk</string>
+    <string name="app_offline_url">http://172.16.25.10</string>
+    <string name="app_offline_ssid">billetten-scan02</string>
+
+    <string name="pref_app_settings_title">ScanPilot Settings</string>
+    <string name="pref_url_title">ScanPilot Status</string>
+    <string name="pref_timeout_title">Timeout</string>
+    <string name="pref_camera_title">Camera Settings</string>
+    <string name="pref_camera_enable_title">Enable Camera Scan</string>
+    <string name="pref_camera_autodetect_title">Auto Detect</string>
+    <string name="pref_camera_autofocus_title">Auto Focus</string>
+    <string name="pref_camera_flash_title">Flash</string>
+    <string name="pref_camera_fps_title">Frames Per Second</string>
+
+    <string name="action_wifi">Wifi</string>
+    <string name="action_keyboard">Keyboard</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_camera">Camera</string>
+
+    <string name="app_timeout">5000</string>
+    <string name="app_enable_camera">false</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Barcode detector dependencies cannot be downloaded due to low device storage</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="login_accepted">Klar til scanning</string>
+    <string name="status_5_message">The ticket\ncan not be found\nin the system</string>
+    <string name="rejected">Afvist</string>
+    <string name="ok">OK</string>
+
+    <string-array name="pref_url_entries">
+        <item>Online</item>
+        <item>Develop</item>
+        <item>Offline</item>
+    </string-array>
+    <string-array name="pref_url_values">
+        <item>@string/app_url</item>
+        <item>http://scanmandev.billetten.dk</item>
+        <item>@string/app_offline_url</item>
+    </string-array>
+</resources>

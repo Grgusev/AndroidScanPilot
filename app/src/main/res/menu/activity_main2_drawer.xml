@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" android:id="@+id/menu_group">
+        <item
+            android:id="@+id/nav_find_ordre"
+            android:icon="@drawable/search"
+            android:title="Find Ordre" />
+        <item
+            android:id="@+id/nav_scanning"
+            android:icon="@drawable/barcode"
+            android:title="Nuværende scanning" />
+        <item
+            android:id="@+id/nav_historik"
+            android:icon="@drawable/history"
+            android:title="Historik" />
+        <item
+            android:id="@+id/nav_vejledning"
+            android:icon="@drawable/manual"
+            android:title="Vejledning" />
+        <item
+            android:id="@+id/nav_indstillinger"
+            android:icon="@drawable/settings"
+            android:title="Indstillinger" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Log ud" />
+    </group>
+</menu>
